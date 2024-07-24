@@ -72,12 +72,8 @@
     // Không tự động chạy file Latex (thay đổi khi cần tự động latex)
     "latex-workshop.latex.autoBuild.run": "never",
 
-
-
-    // comment không dùng để  Copy terminal trên windows
+    // comment không dùng để Copy terminal trên windows
     // "terminal.integrated.sendKeybindingsToShell": true,
-
-
 
     // "search.useParentIgnoreFiles": true,
     "python.createEnvironment.trigger": "off",
