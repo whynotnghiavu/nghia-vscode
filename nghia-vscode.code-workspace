@@ -72,13 +72,7 @@
     // Không tự động chạy file Latex (thay đổi khi cần tự động latex)
     "latex-workshop.latex.autoBuild.run": "never",
 
-
-
-    // comment không dùng để  Copy terminal trên windows
-    // "terminal.integrated.sendKeybindingsToShell": true,
-
-
-
+    "terminal.integrated.sendKeybindingsToShell": true,
     // "search.useParentIgnoreFiles": true,
     "python.createEnvironment.trigger": "off",
 
@@ -151,9 +145,6 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[ignore]": {
-      "editor.defaultFormatter": "foxundermoon.shell-format"
-    },
-    "[properties]": {
       "editor.defaultFormatter": "foxundermoon.shell-format"
     },
     "[shellscript]": {
