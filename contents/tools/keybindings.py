@@ -1,7 +1,7 @@
 import os
-import json
+# import json
 # pip install json5
-import json5
+# import json5
 
 
 def get_keybindings_path():

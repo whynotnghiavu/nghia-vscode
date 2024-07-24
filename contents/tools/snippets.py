@@ -43,7 +43,7 @@ for language, extension in list_language.items():
 
     output_file = os.path.join(source_folder, f"{language}.json")
     output_files.append(output_file)
-    with open(output_file, 'w') as f:
+    with open(output_file, 'w', encoding="utf-8") as f:
         json.dump(snippets, f, indent=2)
 
 
@@ -52,20 +52,13 @@ shutil.rmtree(snippets_path)
 os.mkdir(snippets_path)  # Tạo lại thư mục trống
 
 
-
 # 🚀
 for path in output_files:
     with open(path, "r", encoding="utf-8") as file:
         contents = file.read()
-    contents = contents.replace("\\u00f0\\u0178\\u0161\\u20ac", "🚀") 
+    contents = contents.replace("\\u00f0\\u0178\\u0161\\u20ac", "🚀")
     with open(path, "w", encoding="utf-8") as file:
         file.write(contents)
-
-
-    
-
-
-
 
 
 for path in output_files:
