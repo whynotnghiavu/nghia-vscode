@@ -1,17 +1,11 @@
 {
-  "nghia_start": {
-    "prefix": "nghia_start",
+  "nghia_comment": {
+    "prefix": "nghia_comment",
     "body": [
       "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
-      "\\documentclass{article}",
-      "\\begin{document}",
-      "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
-      "Hello, \\LaTeX!",
-      "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
-      "\\end{document}",
-      "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
+      ""
     ],
-    "description": "nghia_start"
+    "description": "nghia_comment"
   },
   "nghia_picture": {
     "prefix": "nghia_picture",
@@ -26,12 +20,18 @@
     ],
     "description": "nghia_picture"
   },
-  "nghia_comment": {
-    "prefix": "nghia_comment",
+  "nghia_start": {
+    "prefix": "nghia_start",
     "body": [
       "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
-      ""
+      "\\documentclass{article}",
+      "\\begin{document}",
+      "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
+      "Hello, \\LaTeX!",
+      "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
+      "\\end{document}",
+      "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
     ],
-    "description": "nghia_comment"
+    "description": "nghia_start"
   }
 }
