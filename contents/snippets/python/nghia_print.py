@@ -1,1 +1,1 @@
-print(f"{nghia}")
+print(f"🚀 {nghia}")
