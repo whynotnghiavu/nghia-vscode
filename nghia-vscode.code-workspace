@@ -280,6 +280,7 @@
       // "javascript": " cd $dir && node $fileName",
       "javascript": " cd $dir && npm run start",
 
+      "typescript": " cd $dir && npm run start",
       // "typescript": " cd $dir && npm run format && exit 0"
       // "typescript": " cd $dir && npm run format && npm run start:dev "
       // "typescript": " cd $dir && npm run format && NEST_DEBUG=true npm run start:dev "
