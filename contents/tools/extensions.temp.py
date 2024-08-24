@@ -1,8 +1,6 @@
 extensions = [
 "editorconfig.editorconfig",
 
-"fedricknishant.turbo-python-print",
-"chakrounanas.turbo-console-log",
 "mikestead.dotenv",
 "archsense.architecture-view-nestjs",
 "formulahendry.auto-rename-tag",
