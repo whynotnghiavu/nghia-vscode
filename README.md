@@ -22,6 +22,5 @@
 
 <!--  -->
 
-"git.ignoreRebaseWarning": true
 
 Thứ tự của settings

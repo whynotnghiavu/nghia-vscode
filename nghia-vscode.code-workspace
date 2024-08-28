@@ -9,6 +9,13 @@
     }
   ],
   "settings": {
+
+
+
+
+"git.ignoreRebaseWarning": true
+,
+
     // Hiển thị băng dính
     "editor.stickyScroll.enabled": true,
     // Số dòng băng dính
