@@ -49,21 +49,22 @@ for language, extension in list_language.items():
   
 
 
-# # Xóa toàn bộ thư mục
-# shutil.rmtree(snippets_path)
-# os.mkdir(snippets_path)  # Tạo lại thư mục trống
+# Xóa toàn bộ thư mục
+shutil.rmtree(snippets_path)
+os.mkdir(snippets_path)   
 
 
-# # 🚀
-# for path in output_files:
-#     with open(path, "r", encoding="utf-8") as file:
-#         contents = file.read()
-#     contents = contents.replace("\\u00f0\\u0178\\u0161\\u20ac", "🚀")
-#     with open(path, "w", encoding="utf-8") as file:
-#         file.write(contents)
+# thay thế icon 🚀
+for path in output_files:
+    with open(path, "r", encoding="utf-8") as file:
+        contents = file.read()
+    contents = contents.replace("\\u00f0\\u0178\\u0161\\u20ac", "🚀")
+    with open(path, "w", encoding="utf-8") as file:
+        file.write(contents)
 
 
-# for path in output_files:
+for path in output_files:
+    
 #     symlink_path = os.path.join(snippets_path, path)
 
 #     if os.path.exists(symlink_path):
