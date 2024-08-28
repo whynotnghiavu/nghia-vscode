@@ -25,3 +25,18 @@ settings_path = get_settings_path()
 
 with open(nghia_settings, "w", encoding="utf-8") as json_file:
     json.dump(content["settings"], json_file, indent=4)
+
+
+
+
+
+
+
+try:
+    if os.path.exists(settings_path):
+        os.remove(settings_path)
+        print(f"Đã xóa symlink: {settings_path}")
+    os.symlink(os.path.abspath(nghia_settings), settings_path)
+    print(f"Tạo link: {settings_path}")
+except OSError as e:
+    print(f"Lỗi: {e}")

@@ -22,8 +22,6 @@
 
 <!--  -->
 
-link file
-
-Đối chiếu settings.json
+"git.ignoreRebaseWarning": true
 
 Thứ tự của settings
