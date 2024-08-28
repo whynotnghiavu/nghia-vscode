@@ -41,10 +41,12 @@ for language, extension in list_language.items():
             "description": snippet_name
         }
 
-    output_file = os.path.join(source_folder, f"{language}.json")
+    output_file =  f"../output/snippets/{language}.json"
     output_files.append(output_file)
     with open(output_file, 'w', encoding="utf-8") as f:
         json.dump(snippets, f, indent=2)
+
+  
 
 
 # # Xóa toàn bộ thư mục
