@@ -3,6 +3,15 @@
 [text](contents/tools/extensions.py)
 [text](.vscode/extensions.json)
 
+
+
+
+[text](input/shortcuts/keybindings.json)
+[text](contents/tools/keybindings.py)
+
+
+
+
 <!--  -->
 
 link file
