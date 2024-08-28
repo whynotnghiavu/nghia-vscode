@@ -25,8 +25,7 @@ with open("../../.vscode/extensions.json", "w") as json_file:
 
 # "mikestead.dotenv",
 # "archsense.architecture-view-nestjs",
-# "formulahendry.auto-rename-tag",
-# "ritwickdey.liveserver",
+# "formulahendry.auto-rename-tag", 
 
 # "ms-vscode-remote.remote-wsl",
 # "kamikillerto.vscode-colorize",
@@ -34,8 +33,7 @@ with open("../../.vscode/extensions.json", "w") as json_file:
 # "ms-vscode.cpptools-themes",
 # "ms-vscode.cpptools-extension-pack",
 # "ms-vscode.cpptools",
-# "AMiner.codegeex",
-# "humao.rest-client",
+# "AMiner.codegeex", 
 # "dbaeumer.vscode-eslint",
 # "xabikos.reactsnippets",
 # "twxs.cmake",
@@ -58,5 +56,4 @@ with open("../../.vscode/extensions.json", "w") as json_file:
 # "steoates.autoimport",
 # "usernamehw.errorlens",
 
-
-
+ 
