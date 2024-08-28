@@ -1,0 +1,24 @@
+// Nhấn ctrl+k ctrl+k để tạo thêm
+// code ~/AppData/Roaming/Code/User/keybindings.json
+// code ~/.config/Code/User/keybindings.json
+
+[
+  {
+    "key": "ctrl+k ctrl+s",
+    "command": "workbench.action.openGlobalKeybindings",
+    "when": "editorTextFocus"
+  },
+
+  {
+    // "key": "ctrl+m",
+    "key": "ctrl+l",
+    "command": "expandLineSelection",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.files.newUntitledFile",
+    "when": "editorTextFocus"
+  }
+]
