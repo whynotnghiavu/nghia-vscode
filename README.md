@@ -11,7 +11,7 @@
 [text](contents/tools/keybindings.py)
 
 <!--  -->
-
+[text](contents/tools/snippets.py)
 <!--  -->
 
 link file
