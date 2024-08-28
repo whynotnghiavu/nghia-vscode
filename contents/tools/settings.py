@@ -19,8 +19,9 @@ def get_settings_path():
 
 
 content = read_json_with_comments()
+nghia_settings= "../../.vscode/settings.json"
 settings_path = get_settings_path()
 
 
-with open(settings_path, "w", encoding="utf-8") as json_file:
+with open(nghia_settings, "w", encoding="utf-8") as json_file:
     json.dump(content["settings"], json_file, indent=4)

@@ -17,6 +17,10 @@
 
 <!--  -->
 
+[text](contents/tools/settings.py)
+
+<!--  -->
+
 link file
 
 Đối chiếu settings.json
