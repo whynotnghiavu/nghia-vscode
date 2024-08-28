@@ -21,14 +21,14 @@
   "nghia_print": {
     "prefix": "nghia_print",
     "body": [
-      "print(f\"\u00f0\u0178\u0161\u20ac {nghia}\")"
+      "print(f\"🚀 {nghia}\")"
     ],
     "description": "nghia_print"
   },
   "nghia_print_green": {
     "prefix": "nghia_print_green",
     "body": [
-      "print(f\"\u00f0\u0178\u0161\u20ac \\033[32m{nghia}\\033[0m\")"
+      "print(f\"🚀 \\033[32m{nghia}\\033[0m\")"
     ],
     "description": "nghia_print_green"
   },

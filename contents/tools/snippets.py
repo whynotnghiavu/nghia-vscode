@@ -62,16 +62,17 @@ for path in output_files:
     with open(path, "w", encoding="utf-8") as file:
         file.write(contents)
 
-
 for path in output_files:
-    
-#     symlink_path = os.path.join(snippets_path, path)
+    symlink_path = os.path.join(snippets_path, path.replace("../output/snippets/","") )
 
-#     if os.path.exists(symlink_path):
-#         print(f"The symbolic link already exists: {path}")
-#     else:
-#         try:
-#             os.symlink(os.path.abspath(path), symlink_path)
-#             print(f"Symbolic link created at: {symlink_path}")
-#         except OSError as e:
-#             print(f"Failed to create symbolic link: {e}")
+
+        
+    try:
+        if os.path.exists(symlink_path):
+            os.remove(symlink_path)
+            print(f"Đã xóa symlink: {symlink_path}")
+        os.symlink(os.path.abspath(path), symlink_path)
+        print(f"Tạo link: {symlink_path}")
+    except OSError as e:
+        print(f"Lỗi: {e}")
+ 
