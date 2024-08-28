@@ -17,6 +17,7 @@
 
 <!--  -->
 
+[text](nghia-vscode.code-workspace)
 [text](contents/tools/settings.py)
 
 <!--  -->
