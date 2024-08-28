@@ -1,16 +1,16 @@
 [text](contents/tools/_all.py)
 
+<!--  -->
+
 [text](contents/tools/extensions.py)
 [text](.vscode/extensions.json)
 
+<!--  -->
 
-
-
-[text](input/shortcuts/keybindings.json)
+[text](contents/input/shortcuts/keybindings.json)
 [text](contents/tools/keybindings.py)
 
-
-
+<!--  -->
 
 <!--  -->
 

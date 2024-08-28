@@ -11,7 +11,7 @@ def get_keybindings_path():
         return os.path.expanduser('~/.config/Code/User/keybindings.json')
 
 
-nghia_keybindings_json = "../../input/shortcuts/keybindings.json"
+nghia_keybindings_json = "../input/shortcuts/keybindings.json"
 keybindings_path = get_keybindings_path()
 
 
