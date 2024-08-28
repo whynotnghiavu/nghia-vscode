@@ -189,7 +189,7 @@
         "json": " cd $dir && scrapy crawl $fileNameWithoutExt-crawler -O $fileName && prettier topcv.json ",
         "properties": " cd $dir && source Scripts/activate ",
         "pip-requirements": " cd $dir && pip install --upgrade pip && pip install -r requirements.txt",
-        "powershell": " cd $dir &&         powershell -ExecutionPolicy ByPass -File $fileName"
+        "powershell": " cd $dir && powershell -ExecutionPolicy ByPass -File $fileName"
     },
     "workbench.startupEditor": "none"
 }
