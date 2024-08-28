@@ -8,5 +8,8 @@
       "path": "contents"
     }
   ],
-  "settings": {}
+  "settings": {
+    // Tự động lưu file
+    "files.autoSave": "afterDelay"
+  }
 }
