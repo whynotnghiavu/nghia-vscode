@@ -1,4 +1,19 @@
 {
+  "nghia-link": {
+    "prefix": "nghia-link",
+    "body": [
+      "",
+      "try:",
+      "    if os.path.exists(link):",
+      "        os.remove(link)",
+      "        print(f\"\u0110\u00e3 x\u00f3a symlink: {link}\")",
+      "    os.symlink(os.path.abspath(path), link)",
+      "    print(f\"T\u1ea1o link: {link}\")",
+      "except OSError as e:",
+      "    print(f\"L\u1ed7i: {e}\")"
+    ],
+    "description": "nghia-link"
+  },
   "nghia_list_set": {
     "prefix": "nghia_list_set",
     "body": [

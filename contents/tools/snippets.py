@@ -29,7 +29,7 @@ for language, extension in list_language.items():
     snippets = {}
 
     for file in files:
-        with open(file, 'r') as f:
+        with open(file, 'r',encoding="utf-8") as f:
             content = f.read()
 
         snippet_name = os.path.splitext(os.path.basename(file))[0]
@@ -58,7 +58,7 @@ os.mkdir(snippets_path)
 for path in output_files:
     with open(path, "r", encoding="utf-8") as file:
         contents = file.read()
-    contents = contents.replace("\\u00f0\\u0178\\u0161\\u20ac", "🚀")
+    contents = contents.replace("\\ud83d\\ude80", "🚀")
     with open(path, "w", encoding="utf-8") as file:
         file.write(contents)
 
