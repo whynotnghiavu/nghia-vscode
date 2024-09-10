@@ -13,9 +13,14 @@
 
 
 
-"git.ignoreRebaseWarning": true
-,
 
+
+
+
+
+
+    
+    "git.ignoreRebaseWarning": true,
     // Hiển thị băng dính
     "editor.stickyScroll.enabled": true,
     // Số dòng băng dính
@@ -201,6 +206,16 @@
       // !
       {
         "tag": "!",
+        "color": "#FF2D00",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      // **
+      {
+        "tag": "**",
         "color": "#FF2D00",
         "strikethrough": false,
         "underline": false,
