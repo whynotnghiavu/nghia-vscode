@@ -1,4 +1,5 @@
 {
+  "git.ignoreRebaseWarning": true,
   "editor.stickyScroll.enabled": true,
   "editor.stickyScroll.maxLineCount": 5,
   "security.workspace.trust.untrustedFiles": "open",
@@ -10,6 +11,7 @@
   "editor.glyphMargin": true,
   "workbench.editor.enablePreview": true,
   "diffEditor.ignoreTrimWhitespace": false,
+  "files.autoSave": "afterDelay",
   "git.enableSmartCommit": true,
   "editor.mouseWheelZoom": true,
   "window.zoomLevel": 1,
@@ -121,6 +123,15 @@
       "italic": false
     },
     {
+      "tag": "**",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
       "tag": "//",
       "color": "#FF8C00",
       "strikethrough": true,
@@ -188,6 +199,5 @@
     "pip-requirements": " cd $dir && pip install --upgrade pip && pip install -r requirements.txt",
     "powershell": " cd $dir && powershell -ExecutionPolicy ByPass -File $fileName"
   },
-  "workbench.startupEditor": "none",
-  "files.autoSave": "afterDelay"
+  "workbench.startupEditor": "none"
 }
