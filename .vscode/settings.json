@@ -1,195 +1,193 @@
 {
-    "editor.stickyScroll.enabled": true,
-    "editor.stickyScroll.maxLineCount": 5,
-    "security.workspace.trust.untrustedFiles": "open",
-    "security.workspace.trust.banner": "always",
-    "security.workspace.trust.emptyWindow": false,
-    "security.workspace.trust.enabled": false,
-    "markdown.preview.scrollEditorWithPreview": false,
-    "markdown.preview.scrollPreviewWithEditor": false,
-    "editor.glyphMargin": true,
-    "workbench.editor.enablePreview": true,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "files.autoSave": "afterDelay",
-    "git.enableSmartCommit": true,
-    "editor.mouseWheelZoom": true,
-    "window.zoomLevel": 1,
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "explorer.confirmDelete": false,
-    "explorer.confirmPasteNative": false,
-    "explorer.confirmDragAndDrop": false,
-    "files.enableTrash": true,
-    "terminal.integrated.copyOnSelection": true,
-    "code-runner.runInTerminal": true,
-    "code-runner.terminalRoot": "/",
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "explorer.compactFolders": false,
-    "git.openRepositoryInParentFolders": "never",
-    "cSpell.enabled": false,
-    "latex-workshop.latex.autoBuild.run": "never",
-    "python.createEnvironment.trigger": "off",
-    "excalidraw.theme": "dark",
-    "latex-workshop.message.warning.show": false,
-    "latex-workshop.message.error.show": false,
-    "latex-workshop.latex.autoClean.run": "onSucceeded",
-    "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
-    "latex-workshop.synctex.afterBuild.enabled": true,
-    "workbench.colorTheme": "Dracula Theme",
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.activeIconPack": "nest",
-    "material-icon-theme.folders.color": "#ff79b4",
-    "material-icon-theme.folders.associations": {
-        "latex": "docs"
+  "editor.stickyScroll.enabled": true,
+  "editor.stickyScroll.maxLineCount": 5,
+  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.banner": "always",
+  "security.workspace.trust.emptyWindow": false,
+  "security.workspace.trust.enabled": false,
+  "markdown.preview.scrollEditorWithPreview": false,
+  "markdown.preview.scrollPreviewWithEditor": false,
+  "editor.glyphMargin": true,
+  "workbench.editor.enablePreview": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.enableSmartCommit": true,
+  "editor.mouseWheelZoom": true,
+  "window.zoomLevel": 1,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "explorer.confirmDelete": false,
+  "explorer.confirmPasteNative": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.enableTrash": true,
+  "terminal.integrated.copyOnSelection": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.terminalRoot": "/",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "explorer.compactFolders": false,
+  "git.openRepositoryInParentFolders": "never",
+  "cSpell.enabled": false,
+  "latex-workshop.latex.autoBuild.run": "never",
+  "python.createEnvironment.trigger": "off",
+  "excalidraw.theme": "dark",
+  "latex-workshop.message.warning.show": false,
+  "latex-workshop.message.error.show": false,
+  "latex-workshop.latex.autoClean.run": "onSucceeded",
+  "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+  "latex-workshop.synctex.afterBuild.enabled": true,
+  "workbench.colorTheme": "Dracula Theme",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.color": "#ff79b4",
+  "material-icon-theme.folders.associations": {
+    "latex": "docs"
+  },
+  "material-icon-theme.files.associations": {
+    "README.md": "3d",
+    "*.md": "3d"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "notebook.output.textLineLimit": 3000,
+  "editor.largeFileOptimizations": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "cweijan.vscode-mysql-client2"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ahk]": {
+    "editor.defaultFormatter": "cweijan.vscode-autohotkey-plus"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "autopep8.args": ["--ignore=E501"],
+  "workbench.editorAssociations": {
+    "*.drawio.png": "hediet.vscode-drawio",
+    "*.excalidraw.png": "editor.excalidraw",
+    "*.png": "imagePreview.previewEditor",
+    "*.pdf": "latex-workshop-pdf-hook"
+  },
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
     },
-    "material-icon-theme.files.associations": {
-        "README.md": "3d",
-        "*.md": "3d"
+    {
+      "tag": "//",
+      "color": "#FF8C00",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
     },
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "notebook.output.textLineLimit": 3000,
-    "editor.largeFileOptimizations": false,
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    {
+      "tag": "#",
+      "color": "#FF8C00",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
     },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    {
+      "tag": "%",
+      "color": "#FF8C00",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
     },
-    "[markdown]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    {
+      "tag": "@",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
     },
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.autopep8"
+    {
+      "tag": "=",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
     },
-    "[dockerfile]": {
-        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-    },
-    "[dockercompose]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[ignore]": {
-        "editor.defaultFormatter": "foxundermoon.shell-format"
-    },
-    "[properties]": {
-        "editor.defaultFormatter": "foxundermoon.shell-format"
-    },
-    "[shellscript]": {
-        "editor.defaultFormatter": "foxundermoon.shell-format"
-    },
-    "[latex]": {
-        "editor.defaultFormatter": "James-Yu.latex-workshop"
-    },
-    "[github-actions-workflow]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[sql]": {
-        "editor.defaultFormatter": "cweijan.vscode-mysql-client2"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[ahk]": {
-        "editor.defaultFormatter": "cweijan.vscode-autohotkey-plus"
-    },
-    "[dotenv]": {
-        "editor.defaultFormatter": "foxundermoon.shell-format"
-    },
-    "autopep8.args": [
-        "--ignore=E501"
-    ],
-    "workbench.editorAssociations": {
-        "*.drawio.png": "hediet.vscode-drawio",
-        "*.excalidraw.png": "editor.excalidraw",
-        "*.png": "imagePreview.previewEditor",
-        "*.pdf": "latex-workshop-pdf-hook"
-    },
-    "better-comments.tags": [
-        {
-            "tag": "!",
-            "color": "#FF2D00",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "//",
-            "color": "#FF8C00",
-            "strikethrough": true,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "#",
-            "color": "#FF8C00",
-            "strikethrough": true,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "%",
-            "color": "#FF8C00",
-            "strikethrough": true,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "@",
-            "color": "#FF8C00",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "=",
-            "color": "#FF8C00",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": ".",
-            "color": "#FF8C00",
-            "strikethrough": true,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        }
-    ],
-    "code-runner.executorMap": {
-        "shellscript": " cd $dir && $fileName",
-        "python": " cd $dir && python $fileName",
-        "javascript": " cd $dir && npm run start",
-        "typescript": " cd $dir && npm run start",
-        "sql": " cd $dir && mysql -u root -p < $fileName",
-        "plaintext": " cd $dir && echo \"\u0110\u00e2y l\u00e0 file $fileName\" ",
-        "log": " cd ~/Desktop/data-warehouse-crawl/contents/scrapy-projects && source Scripts/activate && cd $dir && rm log.log && python main.py ",
-        "json": " cd $dir && scrapy crawl $fileNameWithoutExt-crawler -O $fileName && prettier topcv.json ",
-        "properties": " cd $dir && source Scripts/activate ",
-        "pip-requirements": " cd $dir && pip install --upgrade pip && pip install -r requirements.txt",
-        "powershell": " cd $dir && powershell -ExecutionPolicy ByPass -File $fileName"
-    },
-    "workbench.startupEditor": "none"
+    {
+      "tag": ".",
+      "color": "#FF8C00",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "code-runner.executorMap": {
+    "shellscript": " cd $dir && $fileName",
+    "python": " cd $dir && python $fileName",
+    "javascript": " cd $dir && npm run start",
+    "typescript": " cd $dir && npm run start",
+    "sql": " cd $dir && mysql -u root -p < $fileName",
+    "plaintext": " cd $dir && echo \"\u0110\u00e2y l\u00e0 file $fileName\" ",
+    "log": " cd ~/Desktop/data-warehouse-crawl/contents/scrapy-projects && source Scripts/activate && cd $dir && rm log.log && python main.py ",
+    "json": " cd $dir && scrapy crawl $fileNameWithoutExt-crawler -O $fileName && prettier topcv.json ",
+    "properties": " cd $dir && source Scripts/activate ",
+    "pip-requirements": " cd $dir && pip install --upgrade pip && pip install -r requirements.txt",
+    "powershell": " cd $dir && powershell -ExecutionPolicy ByPass -File $fileName"
+  },
+  "workbench.startupEditor": "none",
+  "files.autoSave": "afterDelay"
 }
