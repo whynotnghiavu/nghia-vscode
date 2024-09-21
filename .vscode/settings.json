@@ -123,6 +123,15 @@
       "italic": false
     },
     {
+      "tag": "def",
+      "color": "#00ff22",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
       "tag": "**",
       "color": "#FF2D00",
       "strikethrough": false,
@@ -200,7 +209,6 @@
     "powershell": " cd $dir && powershell -ExecutionPolicy ByPass -File $fileName"
   },
   "workbench.startupEditor": "none",
-
   "editor.codeActionsOnSave": {
     "source.organizeImports": "always"
   },
@@ -208,6 +216,5 @@
   "codeium.enableConfig": {
     "*": true,
     "markdown": true
-  },
-  
+  }
 }

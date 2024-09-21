@@ -19,6 +19,8 @@
 
 
 
+
+
     
     "git.ignoreRebaseWarning": true,
     // Hiển thị băng dính
@@ -213,6 +215,16 @@
         "bold": false,
         "italic": false
       },
+      // def
+      {
+        "tag": "def",
+        "color": "#00ff22",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
       // **
       {
         "tag": "**",
@@ -343,6 +355,16 @@
       "powershell": " cd $dir && powershell -ExecutionPolicy ByPass -File $fileName"
     },
     // ???????
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    },
+    "hediet.vscode-drawio.resizeImages": null,
+    // Bật markdown
+    "codeium.enableConfig": {
+      "*": true,
+      "markdown": true
+    }
   }
 }
