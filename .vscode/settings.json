@@ -199,5 +199,15 @@
     "pip-requirements": " cd $dir && pip install --upgrade pip && pip install -r requirements.txt",
     "powershell": " cd $dir && powershell -ExecutionPolicy ByPass -File $fileName"
   },
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+  "hediet.vscode-drawio.resizeImages": null,
+  "codeium.enableConfig": {
+    "*": true,
+    "markdown": true
+  },
+  
 }

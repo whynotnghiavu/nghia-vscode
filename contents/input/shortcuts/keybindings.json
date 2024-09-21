@@ -9,8 +9,16 @@
     "when": "editorTextFocus"
   },
 
+  // "key": "ctrl+m",
+
   {
-    // "key": "ctrl+m",
+    "key": "alt+shift+o",
+    "command": "editor.action.codeAction",
+    "args": {
+      "kind": "source.unusedImports"
+    }
+  },
+  {
     "key": "ctrl+l",
     "command": "expandLineSelection",
     "when": "editorTextFocus"
