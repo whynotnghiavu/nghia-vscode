@@ -1,7 +1,7 @@
-@name_router.get(
+@hello_router.get(
     # post, put, delete, ...
-    '/xxxxxxxxxxxxxxx',
-    description="Mô tả",
+    '/hello',
+    description="Mô tả Hello",
     # response_model=Response
     # response_model=Response
     # response_model=Response
@@ -22,5 +22,5 @@ async def ten_ham_hello(
     # Tạo docs cuối cùng
     # Tạo docs cuối cùng
 
-    logger.info(f'Mô tả')
+    logger.info(f'Mô tả Hello')
     return await {'message': 'Hello World'}

@@ -1,4 +1,36 @@
 {
+  "nghia_fastapi_hello": {
+    "prefix": "nghia_fastapi_hello",
+    "body": [
+      "@hello_router.get(",
+      "    # post, put, delete, ...",
+      "    '/hello',",
+      "    description=\"M\u00f4 t\u1ea3 Hello\",",
+      "    # response_model=Response",
+      "    # response_model=Response",
+      "    # response_model=Response",
+      "    # dependencies=[Security(AuthHandler().scope_and_user_with_check_otp(\"admin\", \"analyst\"))],",
+      ")",
+      "async def ten_ham_hello(",
+      "    # Ph\u00e2n trang limit, offset, ... c\u00f3 toltal",
+      "    # Ph\u00e2n trang from, size, ... c\u00f3 toltal",
+      "    # request Body",
+      "    # request Body",
+      "    # request Body",
+      "):",
+      "    # )-> Response:",
+      "    # )-> Response:",
+      "    # )-> Response:",
+      "",
+      "    # T\u1ea1o docs cu\u1ed1i c\u00f9ng",
+      "    # T\u1ea1o docs cu\u1ed1i c\u00f9ng",
+      "    # T\u1ea1o docs cu\u1ed1i c\u00f9ng",
+      "",
+      "    logger.info(f'M\u00f4 t\u1ea3 Hello')",
+      "    return await {'message': 'Hello World'}"
+    ],
+    "description": "nghia_fastapi_hello"
+  },
   "nghia_fastapi_logger": {
     "prefix": "nghia_fastapi_logger",
     "body": [
@@ -9,7 +41,8 @@
   "nghia_fastapi_routes": {
     "prefix": "nghia_fastapi_routes",
     "body": [
-      "@name_router.get(        # post, put, delete, ...",
+      "@name_router.get(",
+      "    # post, put, delete, ...",
       "    '/xxxxxxxxxxxxxxx',",
       "    description=\"M\u00f4 t\u1ea3\",",
       "    # response_model=Response",
@@ -17,7 +50,7 @@
       "    # response_model=Response",
       "    # dependencies=[Security(AuthHandler().scope_and_user_with_check_otp(\"admin\", \"analyst\"))],",
       ")",
-      "async def list_all_notification_channels(",
+      "async def ten_ham_hello(",
       "    # Ph\u00e2n trang limit, offset, ... c\u00f3 toltal",
       "    # Ph\u00e2n trang from, size, ... c\u00f3 toltal",
       "    # request Body",
