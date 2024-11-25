@@ -225,6 +225,16 @@
         "bold": false,
         "italic": false
       },
+      // return
+      {
+        "tag": "return",
+        "color": "#FF2D00",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
       // **
       {
         "tag": "**",
