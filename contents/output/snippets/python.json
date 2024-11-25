@@ -1,10 +1,72 @@
 {
-  "nghia_main": {
-    "prefix": "nghia_main",
+  "nghia_fastapi_logger": {
+    "prefix": "nghia_fastapi_logger",
     "body": [
-      "if __name__ == \"__main__\":",
-      "    main()"
+      "logger.info(f'List all notification channels')"
     ],
-    "description": "nghia_main"
+    "description": "nghia_fastapi_logger"
+  },
+  "nghia_fastapi_routes": {
+    "prefix": "nghia_fastapi_routes",
+    "body": [
+      "@name_router.get(        # post, put, delete, ...",
+      "    '/xxxxxxxxxxxxxxx',",
+      "    description=\"M\u00f4 t\u1ea3\",",
+      "    # response_model=Response",
+      "    # response_model=Response",
+      "    # response_model=Response",
+      "    # dependencies=[Security(AuthHandler().scope_and_user_with_check_otp(\"admin\", \"analyst\"))],",
+      ")",
+      "async def list_all_notification_channels(",
+      "    # Ph\u00e2n trang limit, offset, ... c\u00f3 toltal",
+      "    # Ph\u00e2n trang from, size, ... c\u00f3 toltal",
+      "    # request Body",
+      "    # request Body",
+      "    # request Body",
+      "):",
+      "    # )-> Response:",
+      "    # )-> Response:",
+      "    # )-> Response:",
+      "",
+      "    # T\u1ea1o docs cu\u1ed1i c\u00f9ng",
+      "    # T\u1ea1o docs cu\u1ed1i c\u00f9ng",
+      "    # T\u1ea1o docs cu\u1ed1i c\u00f9ng",
+      "",
+      "    logger.info(f'M\u00f4 t\u1ea3')",
+      "    return await {'message': 'Hello World'}"
+    ],
+    "description": "nghia_fastapi_routes"
+  },
+  "nghia_fastapi_schema": {
+    "prefix": "nghia_fastapi_schema",
+    "body": [
+      "class Request_Response(BaseModel):",
+      "    interval: int = Field(",
+      "        1,",
+      "        description=\"The interval of the schedule\",",
+      "    )"
+    ],
+    "description": "nghia_fastapi_schema"
+  },
+  "nghia_fastapi_services": {
+    "prefix": "nghia_fastapi_services",
+    "body": [
+      "",
+      "",
+      "async def hello(",
+      "    index: str,",
+      "):",
+      "    # )-> OUTPUT:",
+      "    # )-> OUTPUT:",
+      "    # )-> OUTPUT:",
+      "",
+      "    # T\u1ea1o docs cu\u1ed1i c\u00f9ng",
+      "    # T\u1ea1o docs cu\u1ed1i c\u00f9ng",
+      "    # T\u1ea1o docs cu\u1ed1i c\u00f9ng",
+      "",
+      "    logger.info(f'M\u00f4 t\u1ea3')",
+      "    return await {'message': 'Hello World'}"
+    ],
+    "description": "nghia_fastapi_services"
   }
 }
