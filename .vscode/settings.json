@@ -31,7 +31,7 @@
   "cSpell.enabled": false,
   "latex-workshop.latex.autoBuild.run": "never",
   "python.createEnvironment.trigger": "off",
-  "excalidraw.theme": "dark",
+  "excalidraw.theme": "light",
   "latex-workshop.message.warning.show": false,
   "latex-workshop.message.error.show": false,
   "latex-workshop.latex.autoClean.run": "onSucceeded",
@@ -100,7 +100,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[ahk]": {
-    "editor.defaultFormatter": "cweijan.vscode-autohotkey-plus"
+    "editor.defaultFormatter": "mark-wiemer.vscode-autohotkey-plus-plus"
   },
   "[dotenv]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
@@ -114,6 +114,8 @@
   },
   "better-comments.tags": [
     {
+
+      // !
       "tag": "!",
       "color": "#FF2D00",
       "strikethrough": false,
@@ -123,8 +125,17 @@
       "italic": false
     },
     {
-      "tag": "def",
+      "tag": "def ",
       "color": "#00ff22",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "Args",
+      "color": "#FF2D00",
       "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
@@ -158,6 +169,7 @@
       "bold": false,
       "italic": false
     },
+    // #
     {
       "tag": "#",
       "color": "#FF8C00",
@@ -168,15 +180,17 @@
       "italic": false
     },
     {
+      // %
       "tag": "%",
-      "color": "#FF8C00",
-      "strikethrough": true,
+      "color": "#00ff22",
+      "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
       "bold": false,
       "italic": false
     },
     {
+      // @
       "tag": "@",
       "color": "#FF8C00",
       "strikethrough": false,
@@ -185,6 +199,17 @@
       "bold": false,
       "italic": false
     },
+    // =
+    {
+      "tag": "TODO",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    // =
     {
       "tag": "=",
       "color": "#FF8C00",
@@ -194,6 +219,7 @@
       "bold": false,
       "italic": false
     },
+    // .
     {
       "tag": ".",
       "color": "#FF8C00",
@@ -208,6 +234,7 @@
     "shellscript": " cd $dir && $fileName",
     "python": " cd $dir && python $fileName",
     "javascript": " cd $dir && npm run start",
+    "javascriptreact": " cd $dir && npm run start",
     "typescript": " cd $dir && npm run start",
     "sql": " cd $dir && mysql -u root -p < $fileName",
     "plaintext": " cd $dir && echo \"\u0110\u00e2y l\u00e0 file $fileName\" ",
@@ -225,5 +252,31 @@
   "codeium.enableConfig": {
     "*": true,
     "markdown": true
+  },
+  "remote.SSH.remotePlatform": {
+    "FIS-nghiavv2-be-pxdr": "linux",
+    "SSH-LEARN-DNS": "linux",
+    "PiHoleAWS": "linux",
+    "FIS-IRIS": "linux",
+    "pi-hole-dns-server": "linux",
+    "FIS-be-pxdr": "linux",
+    "FIS-production": "linux",
+    "FIS-nghia-dev": "linux",
+    "FIS-anh-dang": "linux"
+  },
+  // "remote.SSH.useExecServer": false,
+  // "update.mode": "none",
+  "remote.SSH.connectTimeout": 60,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "remote.autoForwardPortsSource": "hybrid",
+  "database-client.autoSync": true,
+  "workbench.editorLargeFileConfirmation": 5,
+  "[lua]": {
+    "editor.defaultFormatter": "yinfei.luahelper"
+  },
+  "files.associations": {
+    "*.env": "shellscript",
+    "Dockerfile": "shellscript",
+    "pip-requirements": "shellscript",
   }
 }
